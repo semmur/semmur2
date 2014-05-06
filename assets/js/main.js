@@ -116,6 +116,16 @@ function findRandom() {
 	});
 }
 
+function findRandom2() {
+	console.log('find Random product to post');
+	$.ajax({
+		type: 'GET',
+		url: "api/random",
+		dataType: "json", // data type of response
+		success: pageWallpost
+	});
+}
+
 function findByName(searchKey) {
 	console.log('findByName: ' + searchKey);
 	$.ajax({
@@ -227,10 +237,10 @@ function renderList(data) {
 				     +' <h4 class="media-heading text-success">'+wine.nama_brg+'</h4>'
 				      +'&nbsp;&nbsp;'+wine.ket_brg
 				      +'<br><span class="label label-success">'
-				      +'<a href="#" class="bukaPenjual" id="'+wine.nama_brg+'">'+wine.jml+' Penjual.</a>'
+				      +'<a href="" class="bukaPenjual" id="'+wine.nama_brg+'">'+wine.jml+' Penjual.</a>'
 				      +'</span> '
 				      +'<span class="label label-danger">'
-				      +'<a href="#" class="detilWine" id="'+wine.nama_brg+'">Jual Produk Ini?</a>'
+				      +'<a href="" class="detilWine" id="'+wine.nama_brg+'">Jual Produk Ini?</a>'
 				      +'</span>'
 				      +'</div></li><hr>');
 		}
@@ -288,6 +298,31 @@ function randomWallpost(data) {
             };
         
         FB.api('/me/feed', 'post', status, function(response) {
+            if (response && response.id) {
+                //
+            } else {
+                //alert('Ada kesalahan saat posting ke Facebook.');
+            }
+        });
+		
+	});
+}
+
+function pageWallpost(data) {
+	// JAX-RS serializes an empty list as null, and a 'collection of one' as an object (not an 'array of one')
+	var list = data == null ? [] : (data.wine instanceof Array ? data.wine : [data.wine]);
+
+	$.each(list, function(index, wine) {
+		
+		var status = {
+                name: "Ingin membeli " + wine.nama_brg + "? Hanya Rp. "+ wine.hrg_brg +" lho di "+wine.nama_usr_brg,
+                link: "http://semmur.com",
+                picture: "http://semmur.com/uploads/"+wine.foto_brg,
+                caption: "http://semmur.com",
+                description:'Temukan lebih banyak lagi harga termurah bagi produk-produk yang hendak Anda beli. Hanya di Semmur.com, direktori pembanding harga bagi grosir maupun dropshipper disekitar Anda.'
+            };
+        
+        FB.api('/semmurcom/feed', 'post', status, function(response) {
             if (response && response.id) {
                 //
             } else {
