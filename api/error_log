@@ -1,0 +1,161 @@
+[06-Apr-2014 10:29:24 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:87
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(87): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 87, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 87
+[06-Apr-2014 10:29:24 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 87
+[06-Apr-2014 10:32:57 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:87
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(87): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 87, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 87
+[06-Apr-2014 10:32:57 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 87
+[06-Apr-2014 10:33:18 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:87
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(87): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 87, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 87
+[06-Apr-2014 10:33:18 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 87
+[06-Apr-2014 10:36:33 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:82
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(82): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 82, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:36:33 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:36:41 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:82
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(82): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 82, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:36:41 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:36:42 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:82
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(82): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 82, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:36:42 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:37:06 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:82
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(82): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 82, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:37:06 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:37:57 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:82
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(82): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 82, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:37:57 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 82
+[06-Apr-2014 10:42:05 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:89
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(89): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 89, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 10:42:05 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 10:42:48 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:89
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(89): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 89, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 10:42:48 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 10:43:37 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:89
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(89): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 89, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 10:43:37 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 10:48:23 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:91
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(91): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 91, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 91
+[06-Apr-2014 10:48:23 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 91
+[06-Apr-2014 10:49:27 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:91
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(91): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 91, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 91
+[06-Apr-2014 10:49:27 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 91
+[06-Apr-2014 10:52:17 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:91
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(91): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 91, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 91
+[06-Apr-2014 10:52:17 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 91
+[06-Apr-2014 10:59:54 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:89
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(89): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 89, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 10:59:54 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 11:01:09 Asia/Jakarta] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: app' in /home/quickasi/public_html/jokes/api/index.php:89
+Stack trace:
+#0 /home/quickasi/public_html/jokes/api/index.php(89): Slim::handleErrors(8, 'Undefined varia...', '/home/quickasi/...', 89, Array)
+#1 [internal function]: addUser()
+#2 /home/quickasi/public_html/jokes/api/Slim/Route.php(392): call_user_func_array('addUser', Array)
+#3 /home/quickasi/public_html/jokes/api/Slim/Slim.php(1052): Slim_Route->dispatch()
+#4 /home/quickasi/public_html/jokes/api/index.php(20): Slim->run()
+#5 {main}
+  thrown in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 11:01:09 Asia/Jakarta] PHP Fatal error:  Call to a member function request() on a non-object in /home/quickasi/public_html/jokes/api/index.php on line 89
+[06-Apr-2014 19:31:02 Asia/Jakarta] PHP Fatal error:  Call to undefined function now() in /home/quickasi/public_html/jokes/api/index.php on line 97
